@@ -1,0 +1,117 @@
+.mainBlock {
+    display: flex;
+    width: auto;
+    height: 500px;
+    flex-direction: column;
+    border: 2px solid rgb(9, 96, 117);
+    border-radius: 3px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(240, 241, 160);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(240, 96, 29);
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(9, 96, 117);
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.mainSect {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+table {
+    width: 95%;
+    height: 95%;
+    table-layout: fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    background-color: rgb(9, 96, 117);
+}
+
+td {
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+td:hover {
+    background-color: rgb(238, 226, 58);
+}
+
+h5 {
+    margin: 30px;
+    font-size: 40px;
+}
+
+.textForm {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 20px;
+    background: rgb(240, 96, 29);
+    color: cornsilk;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.button:hover {
+    background: rgb(131, 82, 59);
+}
+
+label {
+    font-weight: bold;
+}
+
+.cross {
+    color: rgb(37, 82, 231);
+}
+
+.nolik {
+    color: rgb(236, 92, 9);
+}
+
+.message {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+.congratul {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+.changeColorTd {
+    background-color: rgb(111, 236, 8);
+}
